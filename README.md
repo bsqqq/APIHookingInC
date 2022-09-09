@@ -18,7 +18,7 @@ Here comes the fun part...
 
 By now you might have heard about stack and return addresses, right? If not... Basically when some function is called, we have to store the return address in the stack so the program return to the original point from where he departed, because our program is segmented or "divided" in various places along our RAM, that's why we need to store an address of return to keep going from where we left off from the "original" address.
 
-So, about the input... when the funtion responsible for taking the input is called, in this case: `gets()`, after we prompted the input, the value is temporaly stocked in the buffer, the program is expecting some value that has the size in bytes equal (or less) to expected to store in the stack, so... 50 chars (same as 50 bytes) or less.
+So, about the input... when the funtion responsible for taking the input is called, in this case: `gets()`, after we prompted the input, the value is temporaly stocked in the buffer, the program is expecting some value that has the size in bytes equal (or less) to expected to store in the buffer, so... 50 chars (same as 50 bytes) or less.
 
 - Whats happens if we try to pass this limit of 50 bytes?
 
