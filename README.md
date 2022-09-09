@@ -22,7 +22,7 @@ So, about the input... when the funtion responsible for taking the input is call
 
 - Whats happens if we try to pass this limit of 50 bytes?
 
-We start invading space of other important information, pushing important values to other addresses and overwritting original information of that address, if the last information we have in the stack is the return address, so... 
+We start invading space of other important information, pushing values to other addresses and overwritting original information of that address if they are not just an amount of 0's, if the last information we have in the stack is the return address, so... 
 
 - Where should the program return after we overwrited the original value of return?
 
