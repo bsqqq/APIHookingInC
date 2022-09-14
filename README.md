@@ -1,7 +1,6 @@
 # First case of study in Buffer Overflow and arbitrary code execution.
 - How can a simple application be dangerous to information security if not well implemented.
 - How to develop an exploit to this specific case.
-- Possible solutions to avoid Buffer Overflow and arbitrary code execution. 
 ---
 ### **Warning**: This is **ONLY** for educational and professional purposes, it is not my responsability if any of this content is used with bad intentions or poor ethic. 
 - _With great power comes great responsibility..._
