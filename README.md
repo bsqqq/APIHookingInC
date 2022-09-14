@@ -39,3 +39,7 @@ I created a variable that will carry the payload of bytes that i want to execute
 If you don't know how to run a python script, is: `python <name_of_the_file>.py`<br>
 But that's not all, we need to call the program too so we can pass the payload correctly, for that, we use what is called "Pipe" represented by this character &rarr; | <br>
 Now we run everything in a single line of command: `python exploit.py | ./vuln.exe` and after it, we have executed arbitrary code.
+
+To conclude, i hope this "paper" had induced you to look up for security topics and have encouraged you to study this marvelous topics of cybersecurity and information security.
+
+Thank you for reading this far :)
