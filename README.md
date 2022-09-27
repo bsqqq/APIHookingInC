@@ -39,6 +39,10 @@ If you don't know how to run a python script, is: `python <name_of_the_file>.py`
 But that's not all, we need to call the program too so we can pass the payload correctly, for that, we use what is called "Pipe" represented by this character &rarr; | <br>
 Now we run everything in a single line of command: `python exploit.py | ./vuln.exe` and after it, we have executed arbitrary code.
 
+For my case, this especific exploit worked well, it means that (of course) it will not work in all computers, so if you want to try it by yourself, you should know how to reproduce my steps so you can work on your own exploit, but you can use mine as an example to see what occurs with the stack after this payload, go try another payloads to see the effects!
+
+Oh, and just for the record, if a program is built in 32 bits, it will not work if you use a payload for 64 bits and vice-versa.
+
 To conclude, i hope this "paper" had induced you to look up for security topics and have encouraged you to study this marvelous topics of cybersecurity and information security.
 
 Thank you for reading this far :)
